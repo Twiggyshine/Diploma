@@ -7,10 +7,10 @@ const Header = () => {
         <div className="wrapper_header__upicons">
           <div className="logo">
             <a className="btn_upmenu">
-              <img src="jordan.svg" />
+              <img src="nav/jordan.svg" />
             </a>
             <a className="btn_upmenu">
-              <img src="converse.svg" />
+              <img src="nav/converse.svg" />
             </a>
           </div>
           <div>
@@ -46,29 +46,83 @@ const Header = () => {
             </div>
           </div>
         </div>
-
         <nav>
           <div className="wrapper_header__downicons">
-              <a href="/">
-                <img src="logo.svg" />
-              </a>
-              <div className="wrapper_header_deskmenu">
-                <ul className="desk_menu">
-                  <li><a>New & Featured</a></li>
-                  <li><a>Men</a></li>
-                  <li><a>Women</a></li>
-                  <li><a>Kids</a></li>
-                  <li><a>Sale</a></li>
-                  <li><a>Jordan</a></li>
+            <a href="/">
+              <img src="nav/logo.svg" />
+            </a>
+
+
+            <div className="wrapper_header_deskmenu">
+              <div className="navigation">
+                <a href="#">New & Featured</a>
+                <ul className="navigation-content">
+                  <li><a href="#">Limited Time</a></li>
+                  <li><a href="#">Sale: Up to 50% Off</a></li>
+                  <li><a href="#">Accessories</a></li>
+                  <li><a href="#">Trending</a></li>
+                </ul>
+                {/* 
+                <a href="#">Women</a>
+                <a href="#">Kids</a>
+                <a href="#">Sale</a>
+                <a href="#">Jordan</a> */}
+              </div>
+              <div className="navigation">
+                <a href="#">Men</a>
+                <ul className="navigation-content">
+                  <li><a href="#">Shoes</a></li>
+                  <li><a href="#">Shop by Sport</a></li>
+                  <li><a href="#">Collections</a></li>
                 </ul>
               </div>
-              <div className="search_bar">
+              <div className="navigation">
+                <a href="#">Kids</a>
+                <ul className="navigation-content">
+                  <li><a href="#">Shoes</a></li>
+                  <li><a href="#">Shop by Sport</a></li>
+                  <li><a href="#">Collections</a></li>
+                </ul>
+              </div>
+              <div className="navigation">
+                <a href="#">Woman</a>
+                <ul className="navigation-content">
+                  <li><a href="#">Shoes</a></li>
+                  <li><a href="#">Shop by Sport</a></li>
+                  <li><a href="#">Collections</a></li>
+                </ul>
+              </div>
+              <div className="navigation">
+                <a href="#">Sale</a>
+                <ul className="navigation-content">
+                  <li><a href="#">Shoes</a></li>
+                  <li><a href="#">Shop by Sport</a></li>
+                  <li><a href="#">Sale: Up to 50% Off</a></li>
+                </ul>
+              </div>
+              <div className="navigation">
+                <a href="#">Jordan</a>
+                <ul className="navigation-content">
+                  <li><a href="#">Basketball</a></li>
+                  <li><a href="#">Running</a></li>
+                  <li><a href="#">Football</a></li>
+                  <li><a href="#">Gym & training </a></li>
+                </ul>
+              </div>
+            </div>
+
+
+
+
+
+
+            <div className="search_bar">
               <input type="text" className="search_input" />
               <a href="/basket">
-                <img src="basket.svg" />
+                <img src="nav/basket.svg" />
               </a>
               <a href="/likes">
-                <img src="likes.svg" />
+                <img src="nav/likes.svg" />
               </a>
             </div>
           </div>
