@@ -81,11 +81,12 @@
 .navigation-content {
   display: none;
   position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
+  top: 30px;
+  background-color: #ebe1e1;
   border-radius: 4px;
-  z-index: 1;
   font-weight: 500;
+  list-style: none;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   
 }
 
@@ -106,7 +107,14 @@
 .navigation:hover .navigation-content {
   display: block; }
 
+.navigation-content:hover {
+  display: block;     
+}
 
   .wrapper_header_deskmenu {
     display: flex;
+  }
+
+  .link {
+    height: 50px
   }

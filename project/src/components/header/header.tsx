@@ -1,5 +1,7 @@
 import "./header.css";
 
+import { Navigation } from "../dropdown/dropdown";
+
 const Header = () => {
   return (
     <header>
@@ -51,22 +53,35 @@ const Header = () => {
             <a href="/">
               <img src="nav/logo.svg" />
             </a>
+            <Navigation />
+            <div className="search_bar">
+              <input type="text" className="search_input" />
+              <a href="/basket">
+                <img src="nav/basket.svg" />
+              </a>
+              <a href="/likes">
+                <img src="nav/likes.svg" />
+              </a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+  );
+};
 
+export default Header;
 
-            <div className="wrapper_header_deskmenu">
+{
+  /* <div className="wrapper_header_deskmenu">
               <div className="navigation">
-                <a href="#">New & Featured</a>
+                <a href="#" className="link">New & Featured</a>
                 <ul className="navigation-content">
                   <li><a href="#">Limited Time</a></li>
                   <li><a href="#">Sale: Up to 50% Off</a></li>
                   <li><a href="#">Accessories</a></li>
                   <li><a href="#">Trending</a></li>
                 </ul>
-                {/* 
-                <a href="#">Women</a>
-                <a href="#">Kids</a>
-                <a href="#">Sale</a>
-                <a href="#">Jordan</a> */}
               </div>
               <div className="navigation">
                 <a href="#">Men</a>
@@ -109,27 +124,5 @@ const Header = () => {
                   <li><a href="#">Gym</a></li>
                 </ul>
               </div>
-            </div>
-
-
-
-
-
-
-            <div className="search_bar">
-              <input type="text" className="search_input" />
-              <a href="/basket">
-                <img src="nav/basket.svg" />
-              </a>
-              <a href="/likes">
-                <img src="nav/likes.svg" />
-              </a>
-            </div>
-          </div>
-        </nav>
-      </div>
-    </header>
-  );
-};
-
-export default Header;
+            </div> */
+}
