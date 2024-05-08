@@ -1,14 +1,20 @@
+
+
 #root {
   margin: 0 auto;
 }
 
 .wrapper_header {
   padding: 20px 38px;
+  max-width: 1900px;
 }
 
 .wrapper_header__upicons {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  height: 75px;
+  
 }
 
 .logo {
@@ -19,12 +25,18 @@
   display: flex;
 }
 
-.btn_upmenu {
-  padding: 30px 10px;
+.nav__link {
+ display: flex;
+ justify-content: center;
+  align-items: center;
   color: var(--text);
   font-weight: 500;
   font-size: 15px;
   text-align: center;
+  width: 90px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 1.357;
 }
 .wrapper_header__downicons {
   display: flex;
@@ -34,7 +46,6 @@
 }
 .desk_menu {
   display: flex;
-  list-style: none;
   gap: 10px;
 }
 .desk_menu li {
@@ -82,7 +93,7 @@
   display: none;
   position: absolute;
   top: 30px;
-  background-color: #ebe1e1;
+  background-color: #fffdfd;
   border-radius: 4px;
   font-weight: 500;
   list-style: none;
@@ -100,7 +111,7 @@
 }
 
 .navigation a:hover {
-  background-color: #ddd;
+  /* background-color: #ddd; */
   border-radius: 4px;
 }
 
