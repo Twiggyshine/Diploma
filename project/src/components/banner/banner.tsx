@@ -1,4 +1,5 @@
 import "./banner.css";
+import OutlinedButtons from "./button";
 
 export const Banner = () => {
   return (
@@ -15,14 +16,15 @@ export const Banner = () => {
             ></source>
             <img src="banner/banner.jpg" alt="Абстрактное изображение"></img>
           </picture> */}
-              <a className=" button main-page__button " href="#">
-                Shop Now
-              </a>
+              <OutlinedButtons/>
+                
+              
             </div>
 
             <div className="main-page__from">
                 <h1>Feel the unreal</h1>
               
+            
             </div>
           </div>
       </div>
@@ -31,3 +33,4 @@ export const Banner = () => {
   );
 };
 export default Banner;
+
