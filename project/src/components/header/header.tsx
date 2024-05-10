@@ -52,7 +52,7 @@ export const Header = () => {
         <nav>
           <div className="wrapper_header__downicons">
             <a href="/">
-              <img src="nav/logo.svg" alt="logo" />
+              <img src="nav/znak.jpg" alt="logo" />
             </a>
             <Navigation />
             <div className="search_bar">

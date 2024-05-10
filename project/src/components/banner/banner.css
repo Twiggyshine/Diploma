@@ -13,15 +13,9 @@
     background-position: center;
     background-blend-mode: overlay;
     background-repeat: no-repeat;
-    padding: 500px 0 185px;
+    background-attachment: scroll;
+    padding: 300px 0 155px;
 }
-/* .main-page__button {
-    color: white;
-    text-decoration: none;
-    padding: 10px 20px;
-    background-color: transparent;
-    border: 2px solid #fff;
-}  */
 
 .main-page__column {
     display: flex;
@@ -29,17 +23,16 @@
     justify-content: space-between;
     align-items: flex-start;
     color: #fff;
-}
-
-h1 {
-    color: #fff;
-    font-size: 100px;
-    position: absolute;
-    bottom: 200px;
-    left: 600px;
-    z-index: 1;
-}
-
-.main-page__from {
     position: relative;
+    left: 25%;
+    top: 50%;
+}
+
+
+.main-page__title {
+    font-size: 50px;
+}
+
+div.main-page__column > * {
+    margin-bottom: 20px; 
 }

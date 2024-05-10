@@ -6,7 +6,7 @@
 
 body {
   place-items: center;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 
 *,
@@ -42,7 +42,6 @@ img {
   outline: none;
 }
 
-
 a {
   color: inherit;
   text-decoration: none;
@@ -54,15 +53,10 @@ ol {
   list-style-type: none;
 }
 
-
-
 .wrapper {
   margin: 0 auto;
   padding: 0 15px;
-  max-width: 1200px;
-  
-  
-  
+  max-width: 1300px;
 }
 
 .button {
@@ -77,5 +71,7 @@ ol {
   line-height: 1.39;
   text-align: center;
   cursor: pointer;
-  transition: all ease 0.3s; 
+  transition: all ease 0.3s;
 }
+
+
