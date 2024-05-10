@@ -1,8 +1,10 @@
 import "./brand-item.css";
-import pic1 from "./1.jpg";
-import pic2 from "./2.jpg";
-import pic3 from "./3.jpg";
-import pic4 from "./4.jpg";
+import pic1 from "/public/grid/1.jpg";
+import pic2 from "/public/grid/2.jpg";
+import pic3 from "/public/grid/3.jpg";
+import pic4 from "/public/grid/4.jpg";
+
+
 
 const GridComponent = () => {
   return (
