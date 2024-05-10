@@ -14,7 +14,7 @@ const Title: React.FC<TitleProps> = ({ title, subtitle }) => {
         <div className="section-title">
           <h1 style={{ fontSize: '60px'}}>{title}</h1>
           <p>{subtitle}</p>
-          <button>Shop</button>
+          <a className="button title__link" href="#" type="button">Shop All</a>
         </div>
       </div>
     </section>

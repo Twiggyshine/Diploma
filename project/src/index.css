@@ -2,6 +2,7 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   color-scheme: white;
   --text: #111;
+  --button: black;
 }
 
 body {
@@ -63,15 +64,17 @@ ol {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 370px;
   padding: 15px 0;
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
-  color: #fff;
   line-height: 1.39;
   text-align: center;
   cursor: pointer;
   transition: all ease 0.3s;
+}
+
+.button:hover{
+ background-color: rgb(175, 171, 171);
 }
 
 
