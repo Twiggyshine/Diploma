@@ -4,8 +4,8 @@ import { Navigation } from "../dropdown/dropdown";
 
 export const Header = () => {
   return (
-    <header>
-      <div className="wrapper_header">
+    <header className="header">
+      <div className="wrapper">
         <div className="wrapper_header__upicons">
           <div className="logo">
             <a className="nav__link">

@@ -1,4 +1,4 @@
-import  "../header/header.css";
+import "./dropdown.css"
 
 
 
@@ -15,7 +15,7 @@ export const Navigation = () => {
   </ul>
 </div>
 <div className="navigation">
-  <a href="#">Men</a>
+  <a href="#" className="link">Men</a>
   <ul className="navigation-content">
     <li><a href="#">Shoes</a></li>
     <li><a href="#">Shop by Sport</a></li>
@@ -23,7 +23,7 @@ export const Navigation = () => {
   </ul>
 </div>
 <div className="navigation">
-  <a href="#">Kids</a>
+  <a href="#" className="link">Kids</a>
   <ul className="navigation-content">
     <li><a href="#">Shoes</a></li>
     <li><a href="#">Shop by Sport</a></li>
@@ -31,7 +31,7 @@ export const Navigation = () => {
   </ul>
 </div>
 <div className="navigation">
-  <a href="#">Woman</a>
+  <a href="#" className="link">Woman</a>
   <ul className="navigation-content">
     <li><a href="#">Shoes</a></li>
     <li><a href="#">Shop by Sport</a></li>
@@ -39,7 +39,7 @@ export const Navigation = () => {
   </ul>
 </div>
 <div className="navigation">
-  <a href="#">Sale</a>
+  <a href="#" className="link">Sale</a>
   <ul className="navigation-content">
     <li><a href="#">Shoes</a></li>
     <li><a href="#">Shop by Sport</a></li>
@@ -47,7 +47,7 @@ export const Navigation = () => {
   </ul>
 </div>
 <div className="navigation">
-  <a href="#">Jordan</a>
+  <a href="#" className="link">Jordan</a>
   <ul className="navigation-content">
     <li><a href="#">Basketball</a></li>
     <li><a href="#">Running</a></li>

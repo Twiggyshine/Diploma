@@ -1,0 +1,23 @@
+.pics-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+.grid-pic {
+    border-radius: 20px;
+    position: relative;
+}
+.pics {
+    border-radius: 20px
+}
+.tagline {
+    position: absolute;
+    color: var(--theme);
+    bottom: 10%;
+    left: 10%;
+    font-size: 70px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+    
+}

@@ -1,8 +1,9 @@
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  color-scheme: white;
+  color-scheme: var(--theme);
   --text: #111;
   --button: black;
+  --theme: white;
 }
 
 body {
@@ -26,9 +27,9 @@ html,
 body {
   height: 100%;
   font-size: 18px;
-  color: #000;
+  color: var(--text);
   line-height: 1.167;
-  background-color: #fff;
+  background-color: var(--theme)
 }
 .container {
   display: flex;
@@ -57,7 +58,7 @@ ol {
 .wrapper {
   margin: 0 auto;
   padding: 0 15px;
-  max-width: 1300px;
+  max-width: 1800px;
 }
 
 .button {

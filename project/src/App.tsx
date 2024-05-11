@@ -15,7 +15,7 @@ function App() {
       <Title title="MAKING ICONIC LOOK EASY" subtitle="WNBA star Haley Jones knows that Nike are always game" />
       <GridComponent />
       <Title title="WE SERVE ATHLETES" subtitle="If you have a body,you are an athlete" />
-      {/* <PicComponent /> */}
+      <PicComponent />
     </div>
     
   );

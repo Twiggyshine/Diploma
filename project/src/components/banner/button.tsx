@@ -14,27 +14,3 @@ export default function CustomButton() {
 
 
 
-// import Button from '@mui/material/Button';
-// import { styled } from '@mui/material/styles';
-
-// interface CustomButtonProps {
-//   buttonColor: string;
-//   children: React.ReactNode; // Добавляем свойство children в интерфейс пропсов
-// }
-
-// const CustomStyledButton = styled(Button)<{ buttonColor: string }>(
-//   ({ theme, buttonColor }) => ({
-//     color: buttonColor,
-//     borderColor: buttonColor,
-//   })
-// );
-
-// const CustomButton: React.FC<CustomButtonProps> = ({ children, buttonColor }) => {
-//   return (
-//     <CustomStyledButton buttonColor={buttonColor} variant="outlined"style={{width: '250px', height: '50px'}}>
-//       {children}
-//     </CustomStyledButton>
-//   );
-// };
-
-// export default CustomButton;
