@@ -1,0 +1,57 @@
+
+
+.carousel {
+    position: relative;
+    width: 100%;
+  }
+  
+  .slides-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); 
+    gap: 10px; 
+  }
+  
+  .slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+  }
+  
+  .slide img {
+    max-width: 100%; 
+    max-height: 100%;  
+  }
+  
+  .active {
+    transform: scale(1.1);
+  }
+
+  .prev {
+    left: 10px;
+  }
+  
+  .next {
+    right: 10px; 
+  }
+
+  .prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    font-weight: 700;
+  }
+  
+  .prev::before {
+    content: '\2039'; /* Код стрелки влево */
+  }
+  
+  .next::after {
+    content: '\203A'; /* Код стрелки вправо */
+  }
+  
