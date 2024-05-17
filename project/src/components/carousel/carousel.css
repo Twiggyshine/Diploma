@@ -1,5 +1,4 @@
 
-
 .carousel {
     position: relative;
     width: 100%;
@@ -54,4 +53,3 @@
   .next::after {
     content: '\203A'; /* Код стрелки вправо */
   }
-  
