@@ -5,6 +5,8 @@ import GridComponent from "./components/GridComponent/brand-item";
 import PicComponent from "./components/tranding/tranding";
 import Carousel from "./components/carousel/carousel";
 import SHOP_DATA  from "./data/shoes.data";
+import Footer from "./components/footer/footer";
+
 
 
 
@@ -28,6 +30,7 @@ const App = () => {
       <Title title="WE SERVE ATHLETES" subtitle="If you have a body,you are an athlete" />
       <PicComponent />
       <Carousel slides={slides} />
+      <Footer />
     </div>
     
   );

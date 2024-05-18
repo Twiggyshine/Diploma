@@ -9,6 +9,7 @@
 body {
   place-items: center;
   /* overflow-x: hidden; */
+  /* font-family: "Ubuntu", sans-serif; */
 }
 
 *,
@@ -74,5 +75,8 @@ ol {
   transition: all ease 0.3s;
 }
 
-
+li:hover {
+  cursor: pointer;
+  transition: ease-in-out 0.3s;
+}
 
