@@ -3,8 +3,8 @@ const Products = () => {
 
   return (
       <div>
-          Not Found 404
+          Товар
       </div>
   )
 }
-export default Products
+export default Products;

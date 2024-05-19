@@ -10,6 +10,7 @@ import Footer from "./components/footer/footer";
 
 
 
+
 const HomePage = () => {
   const nikeItems = SHOP_DATA.nike.items;
 
