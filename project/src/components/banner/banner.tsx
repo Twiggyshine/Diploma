@@ -1,5 +1,5 @@
 import "./banner.css";
-import CustomButton from "./button";
+
 
 export const Banner = () => {
   return (
@@ -11,11 +11,10 @@ export const Banner = () => {
               <p className="main-page__sale">Big sale up to 20% off</p>
               <h2 className="main-page__title">NIKE RUN SHOES</h2>
               <p className="main-page__text">THIS BRAND HAS MANY VARIANTS</p>
-              <CustomButton />
+              <button className="main-page__button">Shop Now</button>
             </div>
 
             <div className="main-page__from">
-              {/* <h1>Feel the unreal</h1> */}
             </div>
           </div>
         </div>
