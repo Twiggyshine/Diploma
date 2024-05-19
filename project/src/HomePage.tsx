@@ -10,7 +10,7 @@ import Footer from "./components/footer/footer";
 
 
 
-const App = () => {
+const HomePage = () => {
   const nikeItems = SHOP_DATA.nike.items;
 
   const slides = nikeItems.map(item => (
@@ -36,4 +36,4 @@ const App = () => {
   );
 }
 
-export default App;
+export default HomePage;
