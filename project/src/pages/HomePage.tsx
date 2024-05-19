@@ -1,11 +1,11 @@
-import Header from "./components/header/header";
-import Banner from "./components/banner/banner";
-import Title from "./components/title/title";
-import GridComponent from "./components/GridComponent/brand-item";
-import PicComponent from "./components/tranding/tranding";
-import Carousel from "./components/carousel/carousel";
-import SHOP_DATA  from "./data/shoes.data";
-import Footer from "./components/footer/footer";
+import Header from "../components/header/header";
+import Banner from "../components/banner/banner";
+import Title from "../components/title/title";
+import GridComponent from "../components/GridComponent/brand-item";
+import PicComponent from "../components/tranding/tranding";
+import Carousel from "../components/carousel/carousel";
+import SHOP_DATA  from "../data/shoes.data";
+import Footer from "../components/footer/footer";
 
 
 
