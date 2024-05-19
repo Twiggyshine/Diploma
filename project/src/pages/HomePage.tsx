@@ -23,7 +23,7 @@ const HomePage = () => {
   ));
 
   return (
-    <div className="container">
+    <div className="custom__container">
       <Header />
       <Banner />
       <Title title="MAKING ICONIC LOOK EASY" subtitle="WNBA star Haley Jones knows that Nike are always game" />
