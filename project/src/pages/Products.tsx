@@ -1,21 +1,22 @@
-import { Link } from 'react-router-dom';
-import SHOP_DATA from '../data/shoes.data'; 
+import SHOP_DATA from "../data/shoes.data";
 
 const Products = () => {
-
-const nikeItems = SHOP_DATA.nike.items;
+  const nikeItems = SHOP_DATA.nike.items;
 
   return (
-<div>
+    <div>
       <h1>Products</h1>
       <div className="product-list">
         {/* Мапим данные о товарах для отображения */}
-        {nikeItems.map(item => (
+        {nikeItems.map((item) => (
           <div key={item.id} className="product">
-            <img src={`/public/carousel/${item.image}`} alt={item.name} className='product-img' />
+            <img
+              src={`/public/carousel/${item.image}`}
+              alt={item.name}
+              className="product-img"
+            />
             <h2>{item.name}</h2>
             <p>Price: ${item.price}</p>
-            <Link to={`/products/${item.id}`}>View Details</Link>
           </div>
         ))}
       </div>

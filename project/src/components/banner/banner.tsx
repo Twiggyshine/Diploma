@@ -1,4 +1,5 @@
 import "./banner.css";
+import { Link } from "react-router-dom";
 
 
 export const Banner = () => {
@@ -11,7 +12,8 @@ export const Banner = () => {
               <p className="main-page__sale">Big sale up to 20% off</p>
               <h2 className="main-page__title">NIKE RUN SHOES</h2>
               <p className="main-page__text">THIS BRAND HAS MANY VARIANTS</p>
-              <button className="main-page__button">Shop Now</button>
+              {/* Используем компонент Link для создания ссылки */}
+              <Link to="/products" className="main-page__button">Shop Now</Link>
             </div>
 
             <div className="main-page__from">
@@ -22,4 +24,5 @@ export const Banner = () => {
     </main>
   );
 };
+
 export default Banner;
