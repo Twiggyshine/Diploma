@@ -71,6 +71,30 @@ const SHOP_DATA = {
             image: 'nike-10.png',
             price: 150
           },
+          {
+            id: 12,
+            name: 'Calm',
+            image: 'nike-11.png',
+            price: 60
+          },
+          {
+            id: 13,
+            name: 'TC 7900',
+            image: 'nike-12.png',
+            price: 160
+          },
+          {
+            id: 14,
+            name: 'Air Max Plus Drift',
+            image: 'nike-13.png',
+            price: 185
+          },
+          {
+            id: 15,
+            name: 'Air Max 270',
+            image: 'nike-14.png',
+            price: 150
+          },
       ]
       
     }

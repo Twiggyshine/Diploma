@@ -9,10 +9,9 @@ const Products = () => {
   const nikeItems = SHOP_DATA.nike.items;
 
   return (
-    <div>
+    <div className="wrapper">
       <h1 className="products-title" style={{ textAlign: 'center' }}>Products</h1>
       <div className="product-list" style={{ display: 'flex', flexWrap: 'wrap' }}>
-        {/* Мапим данные о товарах для отображения */}
         {nikeItems.map((item) => (
           <Card key={item.id} style={{ width: '18rem', margin: '10px' }}>
             <Card.Img 
