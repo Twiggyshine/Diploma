@@ -1,30 +1,5 @@
 import SHOP_DATA from "../data/shoes.data";
 
-// const Products = () => {
-//   const nikeItems = SHOP_DATA.nike.items;
-
-//   return (
-//     <div>
-//       <h1>Products</h1>
-//       <div className="product-list">
-//         {/* Мапим данные о товарах для отображения */}
-//         {nikeItems.map((item) => (
-//           <div key={item.id} className="product">
-//             <img
-//               src={`/public/carousel/${item.image}`}
-//               alt={item.name}
-//               className="product-img"
-//             />
-//             <h2>{item.name}</h2>
-//             <p>Price: ${item.price}</p>
-//           </div>
-//         ))}
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default Products;
 
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
@@ -35,7 +10,7 @@ const Products = () => {
 
   return (
     <div>
-      <h1>Products</h1>
+      <h1 className="products-title" style={{ textAlign: 'center' }}>Products</h1>
       <div className="product-list" style={{ display: 'flex', flexWrap: 'wrap' }}>
         {/* Мапим данные о товарах для отображения */}
         {nikeItems.map((item) => (
