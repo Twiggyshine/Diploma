@@ -95,6 +95,36 @@ const SHOP_DATA = {
             image: 'nike-14.png',
             price: 150
           },
+          {
+            id: 16,
+            name: 'Court Borough Low Recraft',
+            image: 'nike-15.png',
+            price: 47
+          },
+          {
+            id: 17,
+            name: 'Air More Uptempo',
+            image: 'nike-16.png',
+            price: 37
+          },
+          {
+            id: 18,
+            name: 'Revolution 7 SE',
+            image: 'nike-17.png',
+            price: 55
+          },
+          {
+            id: 19,
+            name: 'Force 1 Low LV8 EasyOn',
+            image: 'nike-18.png',
+            price: 56
+          },
+          {
+            id: 20,
+            name: 'Force 1 Mid SE EasyOn',
+            image: 'nike-19.png',
+            price: 54
+          },
       ]
       
     }

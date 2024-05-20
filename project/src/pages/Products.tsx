@@ -4,6 +4,7 @@ import SHOP_DATA from "../data/shoes.data";
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Searchbar from "../components/searchbar/searchbar";
 
 const Products = () => {
   const nikeItems = SHOP_DATA.nike.items;
@@ -11,6 +12,7 @@ const Products = () => {
   return (
     <div className="wrapper">
       <h1 className="products-title" style={{ textAlign: 'center' }}>Products</h1>
+      <Searchbar />
       <div className="product-list" style={{ display: 'flex', flexWrap: 'wrap' }}>
         {nikeItems.map((item) => (
           <Card key={item.id} style={{ width: '18rem', margin: '10px' }}>
