@@ -27,7 +27,7 @@ const SHOP_DATA = {
           name: 'Presto Fly',
           image: 'nike-3.png',
           price: 96,
-          oldPrice: 120
+          Price: 120
         },
         {
           id: 6,
