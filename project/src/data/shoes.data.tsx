@@ -66,61 +66,61 @@ const SHOP_DATA = {
             price: 90
           },
           {
-            id: 11,
+            id: 12,
             name: 'Zoom Vomero 5 Premium',
             image: 'nike-10.png',
             price: 150
           },
           {
-            id: 12,
+            id: 13,
             name: 'Calm',
             image: 'nike-11.png',
             price: 60
           },
           {
-            id: 13,
+            id: 14,
             name: 'TC 7900',
             image: 'nike-12.png',
             price: 160
           },
           {
-            id: 14,
+            id: 15,
             name: 'Air Max Plus Drift',
             image: 'nike-13.png',
             price: 185
           },
           {
-            id: 15,
+            id: 16,
             name: 'Air Max 270',
             image: 'nike-14.png',
             price: 150
           },
           {
-            id: 16,
+            id: 17,
             name: 'Court Borough Low Recraft',
             image: 'nike-15.png',
             price: 47
           },
           {
-            id: 17,
+            id: 18,
             name: 'Air More Uptempo',
             image: 'nike-16.png',
             price: 37
           },
           {
-            id: 18,
+            id: 19,
             name: 'Revolution 7 SE',
             image: 'nike-17.png',
             price: 55
           },
           {
-            id: 19,
+            id: 20,
             name: 'Force 1 Low LV8 EasyOn',
             image: 'nike-18.png',
             price: 56
           },
           {
-            id: 20,
+            id: 21,
             name: 'Force 1 Mid SE EasyOn',
             image: 'nike-19.png',
             price: 54

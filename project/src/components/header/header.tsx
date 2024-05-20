@@ -1,7 +1,7 @@
 import "./header.css";
 
 import { Navigation } from "../dropdown/dropdown";
-import Searchbar from "../searchbar/searchbar";
+
 
 
 export const Header = () => {
@@ -57,7 +57,6 @@ export const Header = () => {
               <img src="nav/znak.jpg" alt="logo" />
             </a>
             <Navigation />
-            <Searchbar />
           </div>
         </nav>
       </div>
