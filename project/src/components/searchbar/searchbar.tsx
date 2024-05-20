@@ -1,11 +1,12 @@
 import NikeItems from "../searchbar/nike.items";
 
+
 import React, { useState } from "react";
 
-const Searchbar = () => {
-  const [filter, setFilter] = useState("");
+const Searchbar: React.FC = () => {
+  const [filter, setFilter] = useState<string>("");
 
-  const handleInputChange = (event) => {
+  const handleInputChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setFilter(event.target.value);
   };
 
@@ -18,10 +19,10 @@ const Searchbar = () => {
         onChange={handleInputChange}
       />
       <a href="/basket">
-        <img src="nav/basket.svg" />
+        <img src="nav/basket.svg" alt="Basket" />
       </a>
       <a href="/likes">
-        <img src="nav/likes.svg" />
+        <img src="nav/likes.svg" alt="Likes" />
       </a>
       <NikeItems filter={filter} />
     </div>

@@ -4,6 +4,7 @@ import { Navigation } from "../dropdown/dropdown";
 import Searchbar from "../searchbar/searchbar";
 
 
+
 export const Header = () => {
   return (
     <header className="header">
