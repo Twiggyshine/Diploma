@@ -2,9 +2,6 @@ import "./header.css";
 
 import { Navigation } from "../dropdown/dropdown";
 
-
-
-
 export const Header = () => {
   return (
     <header className="header">
@@ -58,6 +55,15 @@ export const Header = () => {
               <img src="nav/znak.jpg" alt="logo" />
             </a>
             <Navigation />
+            <div className="search__bar">
+              <input className="search_input" />
+              <a href="/basket">
+                <img src="nav/basket.svg" alt="Basket" />
+              </a>
+              <a href="/likes">
+                <img src="nav/likes.svg" alt="Likes" />
+              </a>
+            </div>
           </div>
         </nav>
       </div>

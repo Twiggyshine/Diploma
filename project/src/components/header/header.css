@@ -44,11 +44,10 @@
   font-weight: 500;
   font-size: 20px;
 }
-.search_bar {
+.search__bar {
   display: flex;
   gap: 10px;
   align-items: center;
-  display: flex;
 }
 
 .search_input {
