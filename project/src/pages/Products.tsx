@@ -3,6 +3,8 @@ import NikeItems from "../components/searchbar/nike.items";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Searchbar from "../components/searchbar/searchbar";
 
+
+
 const Products = () => {
   return (
     <div className="wrapper">

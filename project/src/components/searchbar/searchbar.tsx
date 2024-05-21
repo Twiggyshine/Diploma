@@ -1,5 +1,6 @@
 import NikeItems from "../searchbar/nike.items";
 
+
 import React, { useState } from "react";
 
 const Searchbar: React.FC = () => {
