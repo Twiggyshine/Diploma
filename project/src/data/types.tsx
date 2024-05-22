@@ -1,10 +1,10 @@
-// export interface Item {
-//     id: number;
-//     name: string;
-//     image: string;
-//     price: number;
-//   }
+export interface Item {
+    id: number;
+    name: string;
+    image: string;
+    price: number;
+  }
   
-//   export interface CartState {
-//     items: Item[];
-//   }
+  export interface CartState {
+    items: Item[];
+  }
