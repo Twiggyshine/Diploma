@@ -1,4 +1,3 @@
-import NikeItems from "../data/nike.items";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import Searchbar from "../components/searchbar/searchbar";
@@ -12,7 +11,6 @@ const Products = () => {
         Products
       </h1>
       <Searchbar />
-      <NikeItems filter="" />
     </div>
   );
 };

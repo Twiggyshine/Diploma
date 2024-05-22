@@ -4,8 +4,13 @@ import "../header/header.css";
 
 import React, { useState } from "react";
 
+import { useSelector } from 'react-redux';
+import { Badge } from 'react-bootstrap';
+import { RootState } from '../../redux/store';
+
 const Searchbar: React.FC = () => {
   const [filter, setFilter] = useState<string>("");
+  const cartItemsCount = useSelector((state: RootState) => state.cart.items.length);
 
   const handleInputChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setFilter(event.target.value);
@@ -21,9 +26,14 @@ const Searchbar: React.FC = () => {
             value={filter}
             onChange={handleInputChange}
           />
-          <a href="/basket">
-            <img src="nav/basket.svg" alt="Basket" />
-          </a>
+          <a href="/cart" className="cart-link">
+                <img src="nav/basket.svg" alt="Basket" className="cart-icon" />
+                {cartItemsCount > 0 && (
+                  <Badge pill bg="danger" className="cart-badge">
+                    {cartItemsCount}
+                  </Badge>
+                )}
+              </a>
           <a href="/likes">
             <img src="nav/likes.svg" alt="Likes" />
           </a>

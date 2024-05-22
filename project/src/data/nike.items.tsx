@@ -1,7 +1,7 @@
 import SHOP_DATA from "./shoes.data";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
-// import { Item } from './types';
+import { Item } from './types';
 
 import { useDispatch } from 'react-redux';
 import { addItem } from '../redux/cartSlice';
@@ -11,7 +11,9 @@ const NikeItems: React.FC<{ filter?: string }> = ({ filter = "" }) => {
   const dispatch = useDispatch();
   let nikeItems: Item[] = SHOP_DATA.nike.items;
 
+  
   if (filter !== "") {
+      
     nikeItems = nikeItems.filter((item) => item.name.toLowerCase().startsWith(filter.toLowerCase()));
   }
 

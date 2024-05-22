@@ -74,7 +74,7 @@
 // export default Header;
 
 
-import React from 'react';
+
 import { useSelector } from 'react-redux';
 import { Badge } from 'react-bootstrap';
 import { RootState } from '../../redux/store';
@@ -131,7 +131,7 @@ export const Header = () => {
             </a>
             <Navigation />
             <div className="search__bar">
-              <input className="search_input" placeholder="Search..." />
+              <input className="search_input" />
               <a href="/cart" className="cart-link">
                 <img src="nav/basket.svg" alt="Basket" className="cart-icon" />
                 {cartItemsCount > 0 && (
