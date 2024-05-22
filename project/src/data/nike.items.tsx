@@ -1,8 +1,7 @@
-import SHOP_DATA from "../../data/shoes.data";
+import SHOP_DATA from "./shoes.data";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 
-import "../header/header.css";
 
 
 const NikeItems = ({ filter = "" }) => {
@@ -35,3 +34,4 @@ const NikeItems = ({ filter = "" }) => {
   };
   
 export default NikeItems;
+

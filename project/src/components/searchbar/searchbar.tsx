@@ -1,4 +1,4 @@
-import NikeItems from "../searchbar/nike.items";
+import NikeItems from "../../data/nike.items";
 
 import "../header/header.css";
 
