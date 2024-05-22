@@ -1,15 +1,18 @@
-// import { createSlice } from '@reduxjs/toolkit';
+// import { createSlice, PayloadAction } from '@reduxjs/toolkit';
+// import { Item, CartState } from '../data/types';
+
+// const initialState: CartState = {
+//   items: [],
+// };
 
 // const cartSlice = createSlice({
 //   name: 'cart',
-//   initialState: {
-//     items: [],
-//   },
+//   initialState,
 //   reducers: {
-//     addItem: (state, action) => {
+//     addItem: (state, action: PayloadAction<Item>) => {
 //       state.items.push(action.payload);
 //     },
-//     removeItem: (state, action) => {
+//     removeItem: (state, action: PayloadAction<{ id: number }>) => {
 //       state.items = state.items.filter(item => item.id !== action.payload.id);
 //     },
 //   },
