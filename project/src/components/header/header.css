@@ -1,3 +1,5 @@
+/* src/components/header.css */
+
 #root {
   margin: 0 auto;
 }
@@ -30,20 +32,24 @@
   text-align: center;
   line-height: 1.357;
 }
+
 .wrapper_header__downicons {
   display: flex;
   justify-content: space-between;
   padding: 20px 38px;
   color: var(--text);
 }
+
 .desk_menu {
   display: flex;
   gap: 10px;
 }
+
 .desk_menu li {
   font-weight: 500;
   font-size: 20px;
 }
+
 .search__bar {
   display: flex;
   gap: 10px;
@@ -68,3 +74,24 @@
   background: none;
 }
 
+.cart-link {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.cart-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.cart-badge {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  padding: 2px 6px;
+  font-size: 12px;
+}
