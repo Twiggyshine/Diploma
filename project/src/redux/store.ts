@@ -6,7 +6,6 @@ import { combineReducers } from 'redux';
 
 const rootReducer = combineReducers({
   cart: cartReducer,
-  // добавьте другие редюсеры, если нужно
 });
 
 const persistConfig = {
