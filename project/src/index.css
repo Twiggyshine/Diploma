@@ -4,6 +4,7 @@
   --text: #111;
   --button: black;
   --theme: white;
+  --hover: rgba(105, 95, 95, 0.8);
 }
 
 body {

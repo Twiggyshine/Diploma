@@ -1,4 +1,5 @@
 import NikeItems from "../../data/nike.items";
+import { Link } from "react-router-dom";
 
 import "../header/header.css";
 
@@ -26,14 +27,14 @@ const Searchbar: React.FC = () => {
             value={filter}
             onChange={handleInputChange}
           />
-          <a href="/cart" className="cart-link">
+          <Link to="/Cart" className="cart-link">
                 <img src="nav/basket.svg" alt="Basket" className="cart-icon" />
                 {cartItemsCount > 0 && (
                   <Badge pill bg="danger" className="cart-badge">
                     {cartItemsCount}
                   </Badge>
                 )}
-              </a>
+              </Link>
           <a href="/likes">
             <img src="nav/likes.svg" alt="Likes" />
           </a>

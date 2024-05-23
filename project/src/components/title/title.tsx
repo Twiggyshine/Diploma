@@ -1,5 +1,7 @@
 import "./title.css";
 
+import { Link } from "react-router-dom";
+
 interface TitleProps {
   title: string;
   subtitle: string;
@@ -12,9 +14,9 @@ const Title: React.FC<TitleProps> = ({ title, subtitle }) => {
         <div className="container-title">
           <h1 style={{ fontSize: "60px" }}>{title}</h1>
           <p>{subtitle}</p>
-          <a className="button title__link" href="#" type="button">
+          <Link to="/Products" className="button title__link">
             Shop All
-          </a>
+          </Link>
         </div>
       </div>
     </section>
