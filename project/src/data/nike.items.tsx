@@ -18,7 +18,7 @@ const NikeItems: React.FC<{ filter?: string }> = ({ filter = "" }) => {
   }
 
   return (
-    <div className="product-list" style={{ display: "flex", flexWrap: "wrap", justifyContent: "center" }}>
+    <div className="product-list" style={{ display: "flex", flexWrap: "wrap"}}>
       {nikeItems.map((item) => (
         <Card key={item.id} style={{ width: "18rem", margin: "10px" }}>
           <Card.Img
@@ -30,7 +30,7 @@ const NikeItems: React.FC<{ filter?: string }> = ({ filter = "" }) => {
           <Card.Body>
             <Card.Title>{item.name}</Card.Title>
             <Card.Text>Price: ${item.price}</Card.Text>
-            <Button variant="primary" onClick={() => dispatch(addItem(item))}>
+            <Button variant="dark" onClick={() => dispatch(addItem(item))}>
               Add to Cart
             </Button>
           </Card.Body>
