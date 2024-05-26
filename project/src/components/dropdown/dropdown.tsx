@@ -8,7 +8,7 @@ export const Navigation = () => {
   <a href="#" className="link">New & Featured</a>
   <ul className="navigation-content">
     <li><a href="#">Limited Time</a></li>
-    <li><a href="#">Sale: Up to 50% Off</a></li>
+    <li><a href="#">Sale: 50% Off</a></li>
     <li><a href="#">Accessories</a></li>
     <li><a href="#">Trending</a></li>
   </ul>

@@ -4,16 +4,15 @@ import Title from "../components/title/title";
 import GridComponent from "../components/GridComponent/brand-item";
 import PicComponent from "../components/tranding/tranding";
 import Carousel from "../components/carousel/carousel";
-import SHOP_DATA  from "../data/shoes.data";
 import Footer from "../components/footer/footer";
-
-
+import { useEffect, useState } from 'react';
+import { Item } from '../data/types';
 
 
 
 const HomePage = () => {
-  const nikeItems = SHOP_DATA.nike.items;
-
+  const [nikeItems, setNikeItems] = useState<Item[]>([]);
+ 
   const slides = nikeItems.map(item => (
     <div key={item.id} className="slide-content">
       <img src={`/public/carousel/${item.image}`} alt={item.name} className="carousel-img" />
@@ -21,6 +20,25 @@ const HomePage = () => {
       <p>${item.price}</p>
     </div>
   ));
+
+
+  useEffect(() => {
+    fetchData();
+  }, []);
+
+  const fetchData = async () => {
+    try {
+      const response = await fetch('https://my-json-server.typicode.com/Twiggyshine/Diploma/nike');
+      if (!response.ok) {
+        throw new Error('Network response was not ok');
+      }
+      const data = await response.json();
+      setNikeItems(data.items);
+    } catch (error) {
+      console.error('Error fetching data:', error);
+    }
+  };
+
 
   return (
     <div className="custom__container">
