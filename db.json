@@ -127,9 +127,34 @@
         {
           "id": 22,
           "name": "Ja 1 Day",
-          "image": "nike-12.png",
+          "image": "nike-20.png",
           "price": 120
+        },
+        {
+          "id": 23,
+          "name": "Giannis Immortality 3",
+          "image": "nike-21.png",
+          "price": 59.97
+        },
+        {
+          "id": 24,
+          "name": "Cosmic Unity 3 (Team)",
+          "image": "nike-22.png",
+          "price": 123.97
+        },
+        {
+          "id": 25,
+          "name": "Nike Court Legacy Lift",
+          "image": "nike-23.png",
+          "price": 90
+        },
+        {
+          "id": 26,
+          "name": "Nike Air Max Plus",
+          "image": "nike-24.png",
+          "price": 180
         }
+
       ]
     }
   }
