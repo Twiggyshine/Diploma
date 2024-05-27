@@ -8,7 +8,9 @@ import Card from "react-bootstrap/Card";
 
 const Cart: React.FC = () => {
   const items = useSelector((state: RootState) => state.cart.items);
+  
   const dispatch = useDispatch();
+
   const handleRemoveItem = (id: number) => {
     dispatch(removeItem(id));
   };
@@ -17,6 +19,7 @@ const Cart: React.FC = () => {
 return (
   <div>
   <h1 style={{ textAlign: "center" }}>Shopping Cart</h1>
+  
   <div className="cart-list" style={{ display: "flex", flexWrap: "wrap", gap : "20px"}}>
      {items.map((item: Item) =>  (
       <Card key={item.id} style={{ width: "18rem", margin: "10px" }}>

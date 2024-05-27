@@ -123,6 +123,12 @@
           "name": "Force 1 Mid SE EasyOn",
           "image": "nike-19.png",
           "price": 54
+        },
+        {
+          "id": 22,
+          "name": "Ja 1 Day",
+          "image": "nike-12.png",
+          "price": 120
         }
       ]
     }
