@@ -18,6 +18,7 @@ const Cart: React.FC = () => {
 
 return (
   <div>
+    <div className="wrapper">
   <h1 style={{ textAlign: "center" }}>Shopping Cart</h1>
   
   <div className="cart-list" style={{ display: "flex", flexWrap: "wrap", gap : "20px"}}>
@@ -39,6 +40,8 @@ return (
       </Card>
     ))}
   </div>
+
+</div>
 </div>
 );
 };

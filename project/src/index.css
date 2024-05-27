@@ -80,3 +80,6 @@ li:hover {
   transition: ease-in-out 0.3s;
 }
 
+.product-list {
+  margin-bottom: 50px;
+}

@@ -1,0 +1,25 @@
+
+  .pagination .page-item .page-link {
+    color: var(--text); 
+    border-radius: 50%; 
+    width: 2.5em; 
+    height: 2.5em; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5px;
+  }
+  
+  .pagination .page-item.active .page-link {
+    background-color: var(--button); 
+    border-color: var(--button); 
+    color: var(--theme); 
+  }
+
+  .pagination-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
