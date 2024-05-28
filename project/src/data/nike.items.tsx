@@ -10,10 +10,11 @@ import Pagination from '../pagination/pagination';
 
 const NikeItems: React.FC<{ filter?: string }> = ({ filter = '' }) => {
   const [nikeItems, setNikeItems] = useState<Item[]>([]);
-  const [currentPage, setCurrentPage] = useState(0);
-  const itemsPerPage = 5;
+  
   const dispatch = useDispatch();
 
+
+  // fetch data
   useEffect(() => {
     fetchData();
   }, []);
@@ -31,9 +32,16 @@ const NikeItems: React.FC<{ filter?: string }> = ({ filter = '' }) => {
     }
   };
 
+  // search
+
   const filteredItems = filter
     ? nikeItems.filter((item) => item.name.toLowerCase().startsWith(filter.toLowerCase()))
     : nikeItems;
+
+    // pagination
+
+  const [currentPage, setCurrentPage] = useState(0);
+  const itemsPerPage = 10;
 
   const pageCount = Math.ceil(filteredItems.length / itemsPerPage);
 
@@ -74,3 +82,4 @@ const NikeItems: React.FC<{ filter?: string }> = ({ filter = '' }) => {
 };
 
 export default NikeItems;
+
