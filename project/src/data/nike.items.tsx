@@ -11,7 +11,7 @@ import Pagination from '../pagination/pagination';
 const NikeItems: React.FC<{ filter?: string }> = ({ filter = '' }) => {
   const [nikeItems, setNikeItems] = useState<Item[]>([]);
   const [currentPage, setCurrentPage] = useState(0);
-  const itemsPerPage = 10;
+  const itemsPerPage = 5;
   const dispatch = useDispatch();
 
   useEffect(() => {
