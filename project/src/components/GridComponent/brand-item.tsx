@@ -27,9 +27,7 @@ const GridComponent = () => {
               <Link
                 to="/Products"
                 className="button grid__link"
-                type="button"
-                draggable="false"
-              >
+                draggable="false">
                 Shop
               </Link>
             </div>

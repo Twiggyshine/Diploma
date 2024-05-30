@@ -13,7 +13,7 @@ export const Footer = () => {
               <li>BECOME A MEMBER</li>
               <li>NIKE X NBA</li>
               <li>NIKE JOURNAL</li>
-              <li>Site Feedback</li>
+              <li>SITE FEEDBACK</li>
             </ul>
             <ul className="wrapper_footer column__help">
               <li>HELP</li>
