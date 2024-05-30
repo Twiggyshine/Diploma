@@ -55,3 +55,7 @@
   .next::after {
     content: '\203A'; /* Код стрелки вправо */
   }
+
+  .slide-content {
+    text-align: center;
+  }
